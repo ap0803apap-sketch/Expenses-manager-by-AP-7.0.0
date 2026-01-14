@@ -434,7 +434,7 @@ class SettingsFragment : Fragment() {
     }
     private fun setupDeveloperInfoActions() {
         binding.layoutGithub.setOnClickListener {
-            openUrl("https://github.com/ap0803apap-sketch/Expenses-manager")
+            openUrl("https://github.com/ap0803apap-sketch/Expenses-manager-by-AP-7.0.0")
         }
         binding.layoutEmail.setOnClickListener {
             startActivity(
