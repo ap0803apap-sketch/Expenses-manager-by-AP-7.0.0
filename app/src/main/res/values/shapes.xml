@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+      Defines the shape for dialogs and other components
+      to have large, 24dp rounded corners like in One UI.
+    -->
+    <style name="ShapeAppearance.App.BigRoundCard" parent="ShapeAppearance.Material3.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">24dp</item>
+    </style>
+</resources>

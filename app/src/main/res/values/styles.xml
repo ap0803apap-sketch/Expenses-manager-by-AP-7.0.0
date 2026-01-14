@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TransparentAlertDialog" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <!-- Make background transparent -->
+        <item name="android:background">@android:color/transparent</item>
+        <item name="backgroundTint">@android:color/transparent</item>
+
+        <!-- Optional: Remove dialog elevation (flat look) -->
+        <item name="android:windowElevation">0dp</item>
+
+        <!-- Optional: Rounded corners if you still want shape -->
+        <item name="shapeAppearanceOverlay">@style/AlertDialogRounded</item>
+    </style>
+
+    <style name="AlertDialogRounded">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+
+</resources>
